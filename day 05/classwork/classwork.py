@@ -1,51 +1,46 @@
 # 1
 greeting = "Hello"
-userName = "student"
-age = 20
+username = "student"
+age = '20'
 location = "New York"
 
 #2
-welcome = "welcome"
-userName = "niko"
-! = !
-print('Welcome' + "username" + "!") 
-print("greeting" + " " + "username" + "!") 
-
+print('Welcome, ' + username + "!" ) 
+print(greeting + ", " + username + "!") 
 
 #3
-age = 11
-in 5 years = "in 5 years"
-
-print("age")  
-print("In 5 years" + "age" + 5) 
+print("Your age is " + age)  
+print("In 5 years, you will be " + str(int(age) + 5) + " years old") 
 
 #4
 favoriteNumber = 7
-print(favoriteNumber * 2)  
+doubled_number = favoriteNumber * 2
+print("Your favorite number doubled is " + str(doubled_number))
 
 #5
 total_score = 100
 bonus_points = 10
-finalScore = "total_score" + "bonus_points"
-print(finalScore)
+finalScore = total_score + bonus_points
+print("Your final score is " + str(finalScore))
 
 #6
-days_in_a_week = "7"
-print("There are " + days_in_a_week * "4" + " days in four weeks")
+days_in_a_week = 7
+print("There are " + str(days_in_a_week * 4) + " days in four weeks")
 
 #7
 firstName = "John"
-print("Hello" + " " + "lastName" + "!")
+lastName = "Smith"
+print("Hello, " + firstName + " " + lastName + "!")
 
 #8
-nickname = "Ace
-print("nickname")
-
-#9
-year = 2024
-print("Next year is " + year + 1)
-print("Your age next year will be " + age + 1)
+nickname = "Ace"
+print("Your nickname is: " + nickname)
 
 #10
+year = 2024
+print("Next year is " + str(year + 1))
+print("Your age next year will be " + str(int(age) + 1))
+
+#11
 farewell = "Goodbye"
-print("FareWell"+ "!")
+print(farewell, username + "! See you next time.")

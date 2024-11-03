@@ -1,7 +1,7 @@
 from turtle import*
 width(7)
 
-color("light pink")
+color("purple")
 speed(10)
 forward (200)
 left(90)
