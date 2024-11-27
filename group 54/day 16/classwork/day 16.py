@@ -1,0 +1,15 @@
+# print(True or False)
+# print(True or True)
+# print(False or True)
+# print(True and True)
+# print(False and True)
+# print(True or True)
+# print(False and False)
+# print(True or True)
+# print(False and False and True)
+# print(False and True)
+ 
+num=int(input("number"))
+print(num or False)
+print(num or True)
+
