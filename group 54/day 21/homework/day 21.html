@@ -1,0 +1,30 @@
+<!-- 1) თქვენი სიტყვებით ახსენით რა არის შემდეგი თეგები და ატრიბუტები, რაში გამოიყენება ისინი: video, controls, source, src, type, iframe -->
+<!-- video თაგი არის მთავარი მის გარეშე ვერ დავიწყებთ ვიდეოს ატვირთვას საიტზე controls არ არის აუცილებეელი რომ გამოვიყენოთ მაგრამ უკეთესია გამოვიყენოთ იმიტომ რომ მის გარეში ჩვენ ვერც ჩავრთავთ ვერ გადავახვებთ და ვერც ვერაფეს გაუკეთებთ src ასევე არის ძაიან საჭირო src ატრიბუტში უნდა დავწეროთ ვიდეოს სახელი დაtype ში დიდი არაფერი უნდა დავწეროთ მაგარამ ძალიან საჭიროა და აუცილებელიც არის აქ უნდა დავწეროთ ჯერ video მერე / და შემდეგ უნდა დავწეროთ რა ფორმატში არის ეს ვიდეო მაგ. countdoown3.mp4 აქ ვიდეო არის mp4 ფორმატში და type ში დავწერთ video/mp4 ახლა iframe frame არის youtube იდან გადმოტანილი ვიდეოს ჩასმა თითმის იგივეა რაც copy paste ამით ჩვენ არ ვიჭერთ ვიდეოს და ასე ვსვავთ ვიდეოს    -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) გადმოწერეთ შემდეგი 2 ვიდეო და ჩაამატეთ ერთ ვიდეო თეგში source თეგების გამოყენებით: -->
+    <video controls>
+        <source src="countdown.mp4" type="video/mp4">
+        <source src="countdown3.mkv" type="video/mkv">
+        video not supported
+    </video>
+    <!-- 3) youtube-დან ვებსაიტზე ჩაამატეთ 5 ვიდეო, iframe-ის გამოყენებით -->
+    <iframe width="628" height="419" src="https://www.youtube.com/embed/bqiK9XxI788" title="როგორ აღმოაჩინეს GOA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <iframe width="628" height="419" src="https://www.youtube.com/embed/2Y8sjVvxuVE" title="შეცვალე შენი შვილის ცხოვრება" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <iframe width="628" height="449" src="https://www.youtube.com/embed/-madXcEooq4" title="აარიდე შვილს მოსაწყენი ზაფხული" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <iframe width="628" height="353" src="https://www.youtube.com/embed/zMOE_vAr5u4" title="GOA, გაკვეთილი 64 -- ალგორითმები და ხელოვნური ინტელექტი - ზურაბ კუჭავა" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="628" height="419" src="https://www.youtube.com/embed/4guAbyatnZU" title="რას ფიქრობენ ჩვენი მოსწავლეები GOA-ზე?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- ჩემი აზრით უკეთესი გამოვიყენოთ iframe იმიტომ რომ ვიდეოს ჩამოტვირთვა რთული არა მაგრამ შესაძლოა იყოს ვირუსიანი მაგრამ iframe სცაც აქვს ცუდი რამ იმიტომ რომ ჩვენ რომ გადმოვიტანთ ვიდეოს საიტზე ზუსტად ისე ჩანს როგორც youtube ზე (არ ვიცი შელება ამის შეცველა შეძლებოდეს) -->
+
+</body>
+</html>
