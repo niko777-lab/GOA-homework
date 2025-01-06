@@ -40,7 +40,3 @@ elif 0 <= score < 60:
 
 # ნიშნის დაბეჭდვა
 print("Your grade is:", grade)
-
-
-
-
