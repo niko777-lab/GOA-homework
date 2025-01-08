@@ -1,0 +1,80 @@
+<!-- 2) თქვენი სიტყვებით ახსენით რა არის border კუთვნილება, რაში ვიყენებთ მას და ასევე მოიყვანეთ საზღვრის შექმნის ორი გზის მაგალითი - 3 კუთვნილებით და 1 კუთვნილებით
+-->
+<!-- border ვიყენებთ border'ის გად=საკეთებლად და შეგვიძლია შეუცვალოთ სისიქე როგორ სტილის იქნება მაგალითად წერტილებით ან ორმაგი და ასევე ბორდერის ფერის შეცვლა -->
+
+<!-- მაგალითები: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>hello to my website</h1>
+    </header>
+
+    <main>
+        <div>
+            <p style="border: 10px blue solid ;">Lorem ipsum dolor sit amet.</p>                 <!--1 კუთვნილებით  -->          
+            <p style="border-width: 10px; border-color: red; border-style: dotted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, non.</p>    <!--  3 
+            კუთვნილებით  -->
+        </div>
+
+        <!-- 3) თქვენი სიტყვებით ახსენით რა არის div block, როდის ვიყენებთ მას და რატომ არის კარგი მისი გამოყენება სტილის გაწერისას -->
+        <!-- იმითომ არის კარგი style ისთვის რომ რაცაც დავწერთ style-ში და ეგ style-ი იქნება div-ის   გამახსნელ tag -ში რაც დაწერეთ ეგ გადავა ყველა div-ში ყველაფერზე ასევე ეს მუშაობს photo-ზე video-ზე და ყველაფერზე  div ასევე ძალიან გავს section ის ყოფს საიტზ ნაწილებად და ასევე ჩვენ შეგვიძლია div-ში კიდევ ერთი div ჩავსვათ.  -->
+        <div style="border: 5px blue solid ;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae maxime nesciunt tempore fuga necessitatibus perferendis aspernatur earum nihil temporibus fugiat! Quisquam, perferendis!3</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique incidunt recusandae accusamus, totam aliquid quasi aut, voluptatum quas reprehenderit facere a eius.3</p>
+            <p>Lorem, ipsum.3</p>
+            <p>Lorem, ipsum.</p>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore error nisi harum iure ex adipisci dolor, minima facere, quae dignissimos, nostrum earum!</h1>
+            <h1>Lorem, ipsum.</h1>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolore quam provident ullam magnam tenetur, nobis ut fuga exercitationem, sapiente ipsum.</h1>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam repellendus modi.</h1>
+            <button>Lorem, ipsum dolor.</button>
+            <img src="Screenshot 2025-01-05 164423.png" alt="code" style="border-style:dotted ;">
+        </div>
+        <div style="color: blue">
+            <!-- block level -->
+             <h1>block level</h1>
+            <p>Lorem, ipsum.</p><br>
+            <hr><br>
+            <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab maiores unde consequuntur, ea, ex in ratione commodi, eligendi inventore saepe enim? Excepturi, sequi.</article><br>
+            <ol>
+                <li>2323</li>
+            </ol><br>           <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aperiam?</aside>
+
+            
+            <div style="color: red;">
+                <!-- inline -->
+                <h1>inline</h1>
+                <a href="">heloo</a><br>
+                <strong>heloo</strong><br>
+                <img src="" alt="noting"><br>
+                <i>Lorem, ipsum.</i><br>
+
+                <label for=""></label>
+            </div>
+        </div>
+
+        <div style="background-color: rgb(203, 192, 192);  border-style: solid;">
+            <h1>CARD LAYOUT</h1>
+            <H2>Templo</H2>
+            <h2>Lorem, ipsum.</h2>
+            <hr>
+            <p style="background-color: rgb(214, 214, 196);">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt harum distinctio rem.</p>
+            <hr>
+            <br><br><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem magnam repudiandae voluptas quisquam facilis laborum deserunt eum corporis ipsam corrupti.</p>
+            <br><br><br>
+            <hr>
+            <p>Lorem ipsum dolor sit.</p><hr>
+            <p>Lorem, ipsum.</p>
+            <hr>
+        </div>
+    </main>
+</body>
+</html>
