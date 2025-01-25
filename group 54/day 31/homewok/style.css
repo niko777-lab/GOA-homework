@@ -1,0 +1,17 @@
+div p{
+    display: inline;
+}
+
+section {
+    display: inline;
+    color: blue;
+    background-color: black;
+    align-items: center;
+}
+
+#p1 {
+    color: green;
+    display: inline;
+    background-color: brown;
+    text-align:right ;
+}
