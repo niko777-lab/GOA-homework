@@ -68,19 +68,13 @@ print(748554!=855547)
 
 # 4)
 
-num1=int(input("enter your number"))
-num2=int(input("enter your number "))
+# num1=int(input("enter your number"))
+# num2=int(input("enter your number "))
 
-print(num1>num2)
-print(num1<num2)
-print(num1==num2)
-print(num1!=num2)
+# print(num1>num2)
+# print(num1<num2)
+# print(num1==num2)
+# print(num1!=num2)
 
-
-
-
-
-
-
-
-
+num3 = input("Enter")
+print(num3 *1000000 )

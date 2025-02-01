@@ -61,4 +61,8 @@ draw_scuar(-300,100)
 draw_scuar(-300,-300)
 exitonclick()
 
-#i got it working finallyyyy
+#i got it working finallyyy
+def dato_var(whata,hell):
+    print(whata + hell)
+
+dato_var("datka,gogata")
