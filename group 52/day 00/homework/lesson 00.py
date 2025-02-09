@@ -62,10 +62,7 @@ forward(25)
 exitonclick()
 
 
+def printing_name_100times(name):
+    print(name*100)
 
-
-
-
-
-
-
+printing_name_100times("nniko")

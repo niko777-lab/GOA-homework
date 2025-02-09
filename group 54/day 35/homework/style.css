@@ -1,0 +1,91 @@
+p-1{
+    color: rgb(53, 53, 184);
+    background-color: rgb(81, 31, 31);
+}
+p-2{
+    color: rgb(27, 185, 13);
+    background-color: rgb(248, 86, 251);
+}
+p-3{
+    color: rgb(175, 133, 16);
+    background-color: rgb(209, 29, 5);
+}
+p-4{
+    color: rgba(115, 72, 6, 0.563);
+    background-color: rgb(21, 3, 37);
+}
+p-5{
+    color: rgb(53, 53, 102);
+    background-color: rgb(250, 0, 0);
+}
+p-6{
+    color: #00ab00 ;
+    background-color:#448833 ;
+}
+p-7{
+    color: #009988;
+    background-color:#45aabbff ;
+}
+p-8{
+    color:#abbff0 ;
+    background-color:#123456 ;
+}
+p-9{
+    color: #009988;
+    background-color:#bbbbbb ;
+}
+p-10{
+    color:#cc00cc;
+    background-color:#abcdef;
+}
+
+#parent{
+    width: 500px;
+    height: 500px;
+    background-color: #00ff00;
+}
+#child{
+    width: 20%;
+    height: 15%;
+    background-color: #000000;
+}
+div-1{
+    height: 101px;
+    width: 102px;
+}
+div-2{
+    height: 101px;
+    width: 102px;
+}
+div-3{
+    height: 101px;
+    width: 102px;
+}
+div-4{
+    height: 101px;
+    width: 102px;
+}
+div-5{
+    height: 101px;
+    width: 102px;
+}
+div-6{
+    height: 101px;
+    width: 102px;
+}
+div-7{
+    height: 101px;
+    width: 102px;
+}
+div-8{
+    height: 101px;
+    width: 102px;
+}
+div-9{
+    height: 101px;
+    width: 102px;
+}
+div-10{
+    height: 101px;
+    width: 102px;
+}

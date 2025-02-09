@@ -1,0 +1,67 @@
+#p-1{
+    color: #ff00ff;
+    background-color: #ffffff;
+}
+#p-2{
+    color: #ff00ff;
+    background-color: #ffffff;
+}
+#p-3{
+    color: #ff00ff;
+    background-color: #ffffff;
+}
+#p-4{
+    color: #ff00ff;
+    background-color: #ffffff;
+}
+#p-5{
+    color: #ff00ff;
+    background-color: #ffffff;
+}
+#p-6{
+    color: #ff00ff;
+    background-color: #ffffff;
+}
+#p-7{
+    color: #ff00ff;
+    background-color: #ffffff;
+}
+#p-8{
+    color: #ff00ff;
+    background-color: #ff8fff;
+}
+#p-9{
+    color: #ff00ff;
+    background-color: #ffffff;
+}
+#p-10{
+    color: #ff01ff;
+    background-color: #ffafff;
+}
+#redDiv {
+    width: 400px;
+    height: 400px;
+    background-color: #FF0000; /* წითელი */
+}
+
+#greenDiv {
+    width: 200px;
+    height: 100px;
+    background-color: #00FF00; /* მწვანე */
+}
+
+#blueDiv {
+    width: 50px;
+    height: 100px;
+    background-color: #0000FF; /* ლურჯი */
+}
+#parent-div{
+    width: 50%;
+    height: 500px;
+    background-color: #FF0000;
+}
+#child-div{
+    width: 20%;
+    height: 100px;
+    background-color: green;
+}
