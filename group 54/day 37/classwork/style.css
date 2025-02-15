@@ -1,0 +1,54 @@
+
+#p-1{
+    text-decoration: underline dotted;
+    text-align: right;
+}
+#p-2{
+    text-decoration: line-through solid;
+    text-align: center;
+}
+#p-3{
+    text-decoration: overline double;
+    text-align: left;
+}
+#p-4{
+    text-decoration: underline solid;
+    text-align: center;
+}
+#p-5{
+    text-decoration: line-through dotted;
+    text-align: right;
+}
+#p-6{
+    text-decoration: line-through solid;
+    text-align: left;
+}
+#p-7{
+    text-decoration: overline solid;
+    text-align: left;
+}
+#p-8{
+    text-decoration: overline solid;
+    text-align: right;
+}
+#p-9{
+    text-decoration: overline solid;
+    text-align: center;
+}  
+#p-10{
+    text-decoration: underline dotted;
+    text-align: center;
+}
+#p-spacia{
+    text-shadow: 0px 5px 2px black;
+}
+
+#under{
+    text-decoration: underline solid;
+}
+#through{
+    text-decoration: line-through solid;
+}
+#over{
+    text-decoration: overline solid;
+}
