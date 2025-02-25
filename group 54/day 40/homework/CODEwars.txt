@@ -1,0 +1,14 @@
+def sum_of_positives(arr):
+    return sum(x for x in arr if x > 0)
+
+def repeat_string(repeat, string):
+    return repeat * string
+
+def remove_first_and_last(s):
+    return s[1:-1]
+
+def square_sum(numbers):
+    return sum(x**2 for x in numbers)
+
+def find_smallest_integer(arr):
+    return min(arr)
