@@ -1,0 +1,17 @@
+#link0{
+    text-decoration: none;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#link0:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+    background-color: blue;
+}
+
+#link0:visited{
+    color: red;
+}
+a{
+    font-weight: bold;
+}
