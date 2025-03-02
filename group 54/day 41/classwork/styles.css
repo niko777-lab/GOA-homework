@@ -1,0 +1,8 @@
+.a:hover{
+    color: green;
+    font-size: 16px;
+}
+.a:active{
+    color: black;
+    background-color: white;
+}
