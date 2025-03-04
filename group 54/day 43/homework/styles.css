@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+}
+
+th {
+    color: #fff;
+}
+
+.red-header { background-color: #e74c3c; }
+.green-header { background-color: #2ecc71; }
+.blue-header { background-color: #3498db; }
+
+tr:nth-child(even) { background-color: #ecf0f1; }
+
+#ol_defult_-{
+    list-style-type:georgian;
+}
+
+ol ul:nth-child(even){
+    background-color: black;
+}
+
+#spaacial_one{
+    color: chocolate;
+}
+
+ol,ul{
+    list-style-image: url(verified.png);
+}
