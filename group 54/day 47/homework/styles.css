@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.outer {
+    width: 300px;
+    height: 300px;
+    background-color: #42b6d6;
+}
+.middle {
+    width: 220px;
+    height: 220px;
+    background-color: red;
+}
+.inner {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+.center {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.tree {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trunk {
+    width: 40px;
+    height: 150px;
+    background-color: saddlebrown;
+    border-radius: 10px;
+}
+.leaves {
+    position: absolute;
+    top: -100px;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50%;
+}
+.apple {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+.apple:nth-child(1) { top: 20px; left: 30px; }
+.apple:nth-child(2) { top: 50px; right: 20px; }
+.apple:nth-child(3) { top: 70px; left: 50px; }
+.apple:nth-child(4) { top: 30px; right: 50px; }
