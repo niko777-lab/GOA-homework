@@ -1,0 +1,60 @@
+students_grades = {
+    "John": 85,
+    "Alice": 90,
+    "Bob": 78,
+    "Eva": 92
+}
+
+for student, grade in students_grades.items():
+    print(f"{student}: {grade}")
+
+countries_and_capitals = {
+    "USA": "Washington, D.C.",
+    "France": "Paris",
+    "Japan": "Tokyo",
+    "Germany": "Berlin",
+    "India": "New Delhi"
+}
+
+for country, capital in countries_and_capitals.items():
+    print(capital)
+
+cars = {
+    "Toyota": "Corolla",
+    "Honda": "Civic",
+    "BMW": "X5",
+    "Tesla": "Model S"
+    "konigsseg": "jesko absult"
+}
+
+print(f"My favorite car model: {cars['konigsseg']}")
+
+book_info = {
+    "Name": "1984",
+    "Author": "George Orwell",
+    "Year": 1949,
+    "Genre": "Dystopian"
+}
+
+book_info["Year"] = 1950
+print(book_info)
+
+students_points = {
+    "John": 85,
+    "Alice": 90,
+    "Bob": 78,
+    "Eva": 92
+}
+
+average_points = sum(students_points.values()) / len(students_points)
+print(f"Average points: {average_points}")
+
+user_info = {
+    "Name": input("Enter your Name: "),
+    "Surname": input("Enter your Surname: "),
+    "Age": int(input("Enter your Age: ")),
+    "Height": float(input("Enter your Height: ")),
+    "Career": input("Enter your Career: ")
+}
+
+print(user_info)

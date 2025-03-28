@@ -43,4 +43,4 @@ list2 = [1,1,2,2,6,6,"niko","surname" ]
 
 remove_Duplicates = list(set(list2))
 
-
+print(remove_Duplicates)
