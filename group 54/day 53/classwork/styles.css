@@ -1,0 +1,19 @@
+/* Element styling */
+.element {
+    width: 300px;
+    height: 150px;
+    background-color: green;
+    border: 2px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: transform 0.3s ease, top 0.3s ease;
+    position: relative;
+}
+
+  /* Hover effect */
+.element:hover {
+    transform: rotate(40deg) scale(2);
+    top: 200px;
+}

@@ -1,0 +1,51 @@
+#Red{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: red;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+#Green{
+    position: absolute;
+    right: 0px;
+    top: 0px2
+    background-color: green;
+    text-align: center;
+    height : 200px;
+    width: 200px;
+}
+#Footer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: gray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+#Blue{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: blue;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+#Purple{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: purple;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+#main-div{
+    width: 1000px;
+    height: 750px;
+    background-image: url("GOA.png");
+    background-size: cover;
+}
