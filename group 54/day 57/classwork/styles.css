@@ -1,0 +1,8 @@
+.animated-element {
+    animation: Animation 5s ease-in infinite 2s;
+}
+@keyframes Animation {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50px); }
+    100% { transform: translateX(100px); }
+}
