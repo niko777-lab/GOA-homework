@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="h1_heading">Main Title</h1>
+    <button onclick="button()">Click Me</button>
+    <h2 id="new_heading" onclick="modifyHeading()">new broski</h2>
+
+    <script>
+        function button() {
+            document.getElementById('h1_heading').style.textAlign = 'center';
+        }
+
+        function modifyHeading() {
+            let = heading = document.getElementById('new_heading');
+            heading.style.textAlign = 'center';
+            heading.style.fontSize = '50px';
+            heading.style.fontWeight = '900';
+            heading.style.color = 'green';
+        }
+    </script>
+</body>
+</html>

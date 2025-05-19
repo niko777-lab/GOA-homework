@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 61 Homework</title>
+</head>
+<body>
+    <!-- 2) JS-ის გამოყენების ადგილი და მიზანი -->
+    <h2>2 სად და რატომ ვიყენებთ JavaScript-ს?</h2>
+    <p>
+        JavaScript გამოიყენება ვებ-გვერდებზე დინამიკური და ინტერაქტიული ფუნქციონალის დასამატებლად. 
+        ის საშუალებას გვაძლევს, ვუპასუხოთ მომხმარებლის ქმედებებს, შევცვალოთ გვერდის ელემენტები, 
+        შევასრულოთ გამოთვლები და ვიმუშაოთ სერვერთან ასინქრონულად.
+    </p>
+
+    <!-- 3) MERN Stack ახსნა -->
+    <h2>3 რა არის MERN Stack და მისი ნაწილები</h2>
+    <ul>
+        <li><b>MongoDB</b> - მონაცემთა ბაზა, სადაც ინახება აპლიკაციის მონაცემები.</li>
+        <li><b>Express.js</b> - Node.js-ისთვის განკუთვნილი ვებ-ფრემვორკი, რომელიც ამუშავებს სერვერის ლოგიკას.</li>
+        <li><b>React.js</b> - Frontend ბიბლიოთეკა, რომელიც ქმნის მომხმარებლის ინტერფეისს.</li>
+        <li><b>Node.js</b> - სერვერის მხარის პლატფორმა, რომელიც საშუალებას აძლევს JS-ს იმუშაოს სერვერზე.</li>
+    </ul>
+
+    <!-- 4) JS კოდის დაწერის სხვადასხვა გზა -->
+    <h2>4 JS-ის კოდის დაწერის სხვადასხვა გზა</h2>
+    <ol>
+        <li>Inline JavaScript (HTML ატრიბუტში, მაგ: <code>onclick</code>)</li>
+        <li>Internal JavaScript (HTML-ის <code>&lt;script&gt;</code> თეგში)</li>
+        <li>External JavaScript (გარე .js ფაილიდან)</li>
+    </ol>
+
+    <!-- 5) ღილაკზე დაკლიკებისას alert box-მა უნდა გამოიტანოს თქვენი ასაკი -->
+    <h2>5 ღილაკზე დაკლიკებისას ასაკის გამოჩენა</h2>
+    <button onclick="showAge()">ჩემი ასაკი</button>
+
+    <!-- 6) სურათზე დაკლიკებისას src-ის შეცვლა -->
+    <h2>6 სურათის შეცვლა დაკლიკებისას</h2>
+    <img id="myImage" src="https://via.placeholder.com/150" alt="სურათი" style="cursor:pointer;" onclick="changeImage()">
+
+    <script>
+        // 5) ღილაკზე დაკლიკებისას alert
+        function showAge() {
+            alert("21");
+        }
+
+        // 6) სურათის src-ის შეცვლა
+        function changeImage() {
+            document.getElementById('myImage').src = "https://via.placeholder.com/150/0000FF/FFFFFF?text=New+Image";
+        }
+    </script>
+</body>
+</html>

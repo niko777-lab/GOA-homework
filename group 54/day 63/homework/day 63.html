@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework Day 63</title>
+    <style>
+        #status {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <!-- 3) Paragraph for message -->
+    <p id="output"></p>
+
+    <!-- 4) Greeting div and button -->
+    <div id="greeting">Hello!</div>
+    <button onclick="changeGreeting()">Change Greeting</button>
+
+    <!-- 5) Title and color change button -->
+    <h1 id="title">Hello World</h1>
+    <button onclick="makeRed()">Make Title Red</button>
+
+    <!-- 6) Counter and button -->
+    <div>
+        <span id="counter">0</span>
+        <button onclick="increaseCounter()">Increase</button>
+    </div>
+
+    <!-- 7) Status paragraph and button -->
+    <p id="status">Offline</p>
+    <button onclick="goOnline()">Go Online</button>
+
+    <script>
+        // 2) Variable score
+        let score = 10;
+        console.log(score);
+        score = 15;
+        console.log(score);
+
+        // 3) Display message in paragraph
+        let message = "Welcome!";
+        document.getElementById("output").textContent = message;
+
+        // 4) Change greeting text
+        function changeGreeting() {
+            document.getElementById("greeting").textContent = "Hi there!";
+        }
+
+        // 5) Change title color to red
+        function makeRed() {
+            document.getElementById("title").style.color = "red";
+        }
+
+        // 6) Counter logic
+        let count = 0;
+        function increaseCounter() {
+            count++;
+            document.getElementById("counter").textContent = count;
+        }
+
+        // 7) Change status to online and color to green
+        function goOnline() {
+            let status = document.getElementById("status");
+            status.textContent = "Online";
+            status.style.color = "green";
+        }
+    </script>
+</body>
+</html>

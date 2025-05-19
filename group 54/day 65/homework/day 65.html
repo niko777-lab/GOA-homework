@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ka"></html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p id="msg">შეტყობინება</p>
+    <h1 id="fullname"></h1>
+
+    <input id="alertInput" placeholder="ტექსტი">
+    <button onclick="alertMsg()">Alert</button>
+    <br><br>
+
+    <input type="color" id="colorInput">
+    <button onclick="changeBg()">ფონის შეცვლა</button>
+    <br><br>
+
+    <input id="first" placeholder="სახელი">
+    <input id="last" placeholder="გვარი">
+    <button onclick="showName()">სრული სახელი</button>
+
+    <script>
+        document.getElementById("msg").textContent = prompt("შეტყობინება:");
+
+        function alertMsg() {
+            alert(document.getElementById("alertInput").value);
+        }
+        function changeBg() {
+            document.body.style.background = document.getElementById("colorInput").value;
+        }
+        function showName() {
+            document.getElementById("fullname").textContent =
+                document.getElementById("first").value + " " +
+                document.getElementById("last").value;
+        }
+    </script>
+</body>
+</html>
