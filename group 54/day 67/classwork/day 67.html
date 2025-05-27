@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- საკლასო დავალება:
+
+შექმენით ფორმა, რომელსაც გაუწერთ id-ის. მას გადაეცით 3 ინფუთი, თითოეულ ინფუთს უნდა ჰქონდეს type, name, required, placeholder ატრიბუტები გაწერილი. ბოლოს ფორმაში ჩაამატეთ დადასტურების ღილაკი.
+
+როდესაც ფორმა დადასტურდება უნდა გაეშვას ფუნქცია, რომელიც ჯერ წამოიღებს ფორმას, ხოლო შემდეგ მისი ინფუთების მნიშვნელობებს name კუთვნილების გამოყენებით.
+
+ფუნქციის გამოძახება ისე გაწერეთ, რომ ვებსაიტი არ დარეფრეშდეს ფორმის დადასტურებისას -->
+    <form id="myForm" onsubmit=handleSubmit(event)>
+        <input type="text" name="name" required placeholder="Enter your name:">
+        <input type="text" name="surname" required placeholder="Enter your surname:">
+        <input type="email" name="email" required placeholder="Enter your Email:">
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="day 67.html"></script>
+</body>
+</html>
