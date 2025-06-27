@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ka">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; }
+            button, input { margin: 5px; padding: 6px; }
+            #colorBoxes div {
+                width: 50px;
+                height: 50px;
+                display: inline-block;
+                margin: 4px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2>1. ტექსტის შეცვლა</h2>
+        <p id="para">საწყისი ტექსტი</p>
+        <button onclick="changeText()">შეცვალე ტექსტი</button>
+
+        <h2>2. ფონის ფერის ცვლა ყოველ 2 წამში</h2>
+        <button onclick="startBgLoop()">დაიწყე</button>
+
+        <h2>3. სიის დამატება</h2>
+        <input id="nameInput" placeholder="შეიყვანე ტექსტი" />
+        <button onclick="addName()">დამატება</button>
+        <ul id="nameList"></ul>
+
+        <h2>4. ციფრული საათი (მოულოდნელი გზით)</h2>
+        <div id="clock">00:00:00</div>
+
+        <h2>5. ფონის ფერის ცვლა ღილაკით</h2>
+        <button onclick="cycleColor()">ცვალე ფონი</button>
+
+        <h2>6. დივების შექმნა რიცხვის მიხედვით</h2>
+        <input id="boxNum" type="number" placeholder="რაოდენობა" />
+        <button onclick="generateBoxes()">შექმნა</button>
+        <div id="colorBoxes"></div>
+
+        <h2>7. ჩათვლის ტაიმერი</h2>
+        <input id="seconds" type="number" placeholder="წამები" />
+        <button onclick="startCountdown()">დაწყება</button>
+        <div id="countdown"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
